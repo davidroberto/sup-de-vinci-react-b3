@@ -1,4 +1,6 @@
 const Header = () => {
+  const isAuthenticated = false;
+
   return (
     <header>
       <nav>
@@ -7,6 +9,8 @@ const Header = () => {
           <li>Blog</li>
         </ul>
       </nav>
+
+      {isAuthenticated ? <p>Vous êtes connecté !</p> : <p>Merci de vous connecter</p>}
     </header>
   );
 };
