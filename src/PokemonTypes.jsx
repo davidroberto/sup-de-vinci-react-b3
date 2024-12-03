@@ -32,7 +32,7 @@ const PokemonTypes = () => {
 
   return (
     <section>
-      {types.map((type) => {
+      {types?.map((type) => {
         return (
           <article>
             <p>{type.name}</p>
