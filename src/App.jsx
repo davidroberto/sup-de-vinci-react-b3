@@ -1,13 +1,13 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import PokemonsTeam from "./PokemonsTeam";
+import PokemonTypes from "./PokemonTypes";
 
 const App = () => {
   return (
     <>
       <Header />
 
-      <PokemonsTeam />
+      <PokemonTypes />
 
       <Footer />
     </>
